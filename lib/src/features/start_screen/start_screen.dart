@@ -1,7 +1,3 @@
-import 'package:flutter/material.dart';
-
-import 'package:ts_4_5_5/src/features/detail_screen/presentation/detail_screen.dart';
-
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -32,27 +28,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
