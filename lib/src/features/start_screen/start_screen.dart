@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:ts_4_5_5/src/features/detail_screen/presentation/detail_screen.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -14,7 +13,7 @@ class HomeScreen extends StatelessWidget {
             context,
             MaterialPageRoute(
               builder: (context) {
-                return const DetailScreen(price: 49.99,);
+                return DetailScreen(price: 49.99,);
               },
             ),
           );
@@ -32,27 +31,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
